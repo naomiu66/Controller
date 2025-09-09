@@ -20,6 +20,11 @@ private:
     static constexpr int JOY2_X_PIN = 34;
     static constexpr int JOY2_Y_PIN = 35;
     static constexpr int JOY2_BTN_PIN = 13;
+
+    static constexpr int BTN1_PIN = 27;
+    static constexpr int BTN2_PIN = 14;
+    static constexpr int BTN3_PIN = 4;
+    static constexpr int BTN4_PIN = 0;
     
     static constexpr int DEADZONE = 200;
     static constexpr int CENTER = 2000;

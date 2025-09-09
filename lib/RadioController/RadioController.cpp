@@ -23,5 +23,5 @@ void RadioController::init() {
 }
 
 void RadioController::sendPayload(Payload payload) {
-    radio.write(&payload, 10);
+    radio.write(&payload, sizeof(payload));
 }

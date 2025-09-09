@@ -13,6 +13,10 @@ struct Payload {
     uint16_t j2_y;
     uint8_t j1_btn;
     uint8_t j2_btn;
+    uint8_t btn1;
+    uint8_t btn2;
+    uint8_t btn3;
+    uint8_t btn4;
 };
 
 class RadioController {
